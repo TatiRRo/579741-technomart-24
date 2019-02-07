@@ -5,7 +5,7 @@
     <title>Магазин "Техномарт</title>
     <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/main.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-menu">
@@ -260,39 +260,67 @@
     <footer class="main-footer">
       <div class="footer-container">
         <div class="footer-section row-1">
-          <a class="footer-logo">Техномарт</a>
+          <a><img class="main-footer-logo" src="img/logo-technomart.svg" width="137" height="22" alt="Логотип магазина Техномарт"></a>
           <ul class="footer-navigation-company">
-            <li><a href="technomart.html">Компания</a></li>
-            <li><a href="#">Новости</a></li>
-            <li><a href="#">Каталог</a></li>
-            <li><a href="#">Доставка</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a class="footer-item" href="technomart.html">Компания</a></li>
+            <li><a class="footer-item" href="#">Новости</a></li>
+            <li><a class="footer-item" href="#">Каталог</a></li>
+            <li><a class="footer-item" href="#">Доставка</a></li>
+            <li><a class="footer-item" href="#">Контакты</a></li>
           </ul>
         </div>
         <div class="footer-section row-2">
           <span class="footer-address">г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8<br>+7 (812) 555-05-55</span>
           <ul class="footer-site-navigation">
-            <li class="footer-site-navigation-item"><a href="#">Материалы</a></li>
-            <li class="footer-site-navigation-item"><a href="#">Техника</a></li>
-            <li class="footer-site-navigation-item"><a href="#">Инструмент</a></li>
-            <li class="footer-site-navigation-item"><a href="#">Спецпредложения</a></li>
+            <li><a class="footer-site-navigation-item" href="#">Материалы</a></li>
+            <li><a class="footer-site-navigation-item" href="#">Техника</a></li>
+            <li><a class="footer-site-navigation-item" href="#">Инструмент</a></li>
+            <li><a class="footer-site-navigation-item" href="#">Спецпредложения</a></li>
           </ul>
         </div>
         <div class="footer-section row-3">
           <p class="description-rights">© 2010–2019 Компания «Техномарт»<br>Все права защищены</p>
           <ul class="footer-social">
-            <li class="vk"><a class="footer-social-item" href="#"><img src="img/icon-vk.svg" alt="Vkontakte" width="32" height="32"><span class="visually-hidden">Vkontakte</span></a></li>
-            <li class="facebook"><a class="footer-social-item" href="#"><img src="img/icon-fb.svg" alt="Facebook" width="32" height="32"><span class="visually-hidden">Facebook</span></a></li>
-            <li class="instagram"><a class="footer-social-item" href="#"><img src="img/icon-insta.svg" alt="Instagram" width="32" height="32"><span class="visually-hidden">Instagram</span></a></li>
+            <li class="vk"><a class="footer-social-item" href="#"><img src="img/icon-vk.svg" alt="Vkontakte" width="26" height="15"><span class="visually-hidden">Vkontakte</span></a></li>
+            <li class="facebook"><a class="footer-social-item" href="#"><img src="img/icon-fb.svg" alt="Facebook" width="12" height="22"><span class="visually-hidden">Facebook</span></a></li>
+            <li class="instagram"><a class="footer-social-item" href="#"><img src="img/icon-insta.svg" alt="Instagram" width="21" height="21"><span class="visually-hidden">Instagram</span></a></li>
           </ul>
-          <p class="description-rights">Обратная связь:
-          <p>
+          <p class="description-rights">Обратная связь:<br>
             <a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-          <p class="description-rights">Разработано-
-          <p>
+          </p>
+          <p class="description-rights">Разработано-<br>
             <a href="htmlacademy.ru">htmlacademy.ru</a>
+          </p>
         </div>
       </div>
     </footer>
+    <section class="modal contact-us">
+      <h2 class="visually-hidden">Задать вопрос</h2>
+      <p class="visually-hidden">Введите свой логин и пароль.</p>
+      <form class="modal-form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="row-1">
+          <p class="contact-us-item">
+            <label for="input-mail" id="label-mail">Ваше имя:</label>
+            <input autocomplete="name" type="text" id="input-name" placeholder="Имя Фамилия" aria-labelledby="label-mail">
+          </p>
+          <p class="contact-us-item">
+            <label for="input-text">Ваш e-mail:</label>
+            <input type="email" id="input-mail" aria-labelledby="label-mail" aria-required="true" placeholder="example@example.com">
+          </p>
+        </div>
+        <div class="row-2">
+          <label for="input-text">Текст письма:</label>
+          <textarea name="input-text" id="input-text">В свободной форме</textarea>
+        </div>
+        <button class="form-submit button" type="submit">Отправить</button>
+      </form>
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>
+    <section class="modal map">
+      <h2 class="visually-hidden">Карта</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533252!2d30.320858716132967!3d59.938716481876185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1548529289852" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>
+    <script src="js/script.min.js"></script>
   </body>
-</html>
+  </html>

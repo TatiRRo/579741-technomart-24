@@ -1,0 +1,235 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Cuprum', 'Arial', sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #000000;
+	background-color: #ffffff;
+	background-position: top center;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+a {
+	text-decoration: none;
+}
+
+.visually-hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+}
+
+.main-menu{
+  background-color: #f3f7f8;
+  width:auto;
+
+}
+
+.user-navigation{
+background-color: #293449;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+  list-style-type: none;
+
+}
+
+.main-navigation{
+display: flex;
+flex-direction: row;
+background-color: #293449;
+justify-content: space-around;
+  list-style-type: none;
+}
+
+.info-company{
+  display: flex;
+  width:940px;
+  flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  margin: auto;
+}
+
+.about-us{
+  width: 320px;
+
+}
+.about-us h1{
+  font-size: 16px;
+  line-height: 23px;
+  color: #ee3643;
+  font-weight: 200;
+  font-style: italic;
+}
+.about-contacts{
+      width: 310px;
+}
+
+.about-contacts span{
+  font-size: 21px;
+line-height: 21px;
+color: #ee3643;
+border: 2px solid white;
+padding: 5px;
+}
+
+.login-navigation{
+  width: 310px;
+display: flex;
+justify-content: space-around;
+  list-style-type: none;
+}
+
+.site-navigation{
+  width: 940px;
+background-color: #32425c;
+display: flex;
+justify-content: space-around;
+margin: auto;
+    list-style-type: none;
+}
+
+.navigation-item{
+  font-size: 17px;
+line-height: 17px;
+color: #ffffff;
+}
+
+.bottom-row{
+  display: flex;
+  width: 940px;
+margin: auto;
+}
+
+.info-header{
+  font-size: 30px;
+line-height: 30px;
+text-transform: uppercase;
+font-weight: normal;
+}
+
+.description{
+  font-size: 13px;
+line-height: 24px;
+font-weight: normal;
+}
+
+.delivery-partner a{
+  font-size: 18px;
+line-height: 20px;
+color: #000000;
+font-weight: normal;
+}
+
+.button{
+text-transform: uppercase;
+color: #fff;
+font-weight: 500;
+font-size: 14px;
+background-color: #ee3643;
+width: 220px;
+padding-left: 53px;
+padding-right: 55px;
+padding-top: 7px;
+padding-bottom: 7px;
+border-radius: 3px;
+line-height: 18px;
+}
+
+.main-footer{
+  background-color: #32425c;
+    margin-top: 85px;
+}
+
+.footer-section.row-1{
+  width: auto;
+display: flex;
+}
+.footer-navigation-company{
+  display: flex;
+justify-content: space-around;
+list-style-type: none;
+width: 550px;
+margin-left: 441px;
+margin-top: 38px;
+}
+
+.footer-item{
+  font-size: 18px;
+line-height: 24px;
+color: #FFFFFF;
+font-weight: normal;
+
+}
+
+.main-footer-logo{
+      margin-left: 322px;
+          margin-top: 20px;
+}
+
+.footer-section.row-2{
+  width: auto;
+display: flex;
+    align-items: flex-end;
+}
+
+.footer-site-navigation{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: 289px;
+  margin-top: 38px;
+}
+
+.footer-site-navigation-item{
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffd180;
+  font-weight: normal;
+  margin-left: 36px;
+}
+
+.footer-address{
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
+  font-weight: normal;
+  margin-left: 320px;
+  width: 330px;
+
+}
+
+.footer-section.row-3{
+  background-color: #293449;
+  display: flex;
+    justify-content: space-around;
+}
+
+.description-rights{
+  font-size: 16px;
+line-height: 18px;
+color: #ffffff;
+font-weight: normal;
+}
+
+
+.footer-social{
+  display: flex;
+justify-content: space-between;
+list-style-type: none;
+}
+
+.modal.contact-us{
+  display:none;
+}
+
+.modal.map{
+  display:none;
+}
