@@ -11,10 +11,10 @@
     <header class="main-menu">
       <div class="main-menu-container">
         <nav aria-label="Содержимое" class="main-navigation">
-          <a href="index.html">
-          <img class="main-header-logo" src="img/logo-technomart.svg" width="137" height="22" alt="Логотип магазина Техномарт">
+          <a class="main-header-logo" href="index.html">
+          <img src="img/logo-technomart.svg" width="137" height="22" alt="Логотип магазина Техномарт">
           </a>
-          <ul class="user-navigation catalog-header">
+          <ul class="user-navigation index-header">
             <li class="menu-column">
               <form class="search" action="https://echo.htmlacademy.ru" method="post">
                 <input type="text" id="search" placeholder="Поиск по сайту"
@@ -52,72 +52,72 @@
     </header>
     <main>
       <h2 class="visually-hidden">Список преимуществ</h2>
-      <section class="advantages">
-        <ul class="advantages-list">
-          <li class="advantages-item">
+      <ul class="advantages-list row">
+          <li class="advantage-item materials">
             <h3>Материалы</h3>
             <a href="#">на любой вкус</a>
           </li>
-          <li class="advantage-item">
+          <li class="advantage-item instrument">
             <h3>Инструмент</h3>
             <a href="#">на все случаи</a>
           </li>
-          <li class="advantage-item">
+          <li class="advantage-item equipment">
             <h3>Техника</h3>
             <a href="#">для стройки</a>
           </li>
-          <li class="advantage-item">
-            <h3>Скидка 50%</h3>
-            <a href="#">на 350 товаров</a>
+          <li class="advantage-item slider">
+              <ul class="slider-list">
+                <li class="slide slide-active">
+                  <div class="slide-column content-1">
+                    <h2>Дрели</h2>
+                    <p>Соседям на радость</p>
+                    <a href="open-catalog.html">Открыть каталог</a>
+                  </div>
+                  <img class="slide-image image-1" src="img/slider-1.jpg" width="620" height="266" alt="Изображение дрели">
+                </li>
+                <li class="slide">
+                  <div class="slide-column content-2">
+                    <h2>Перфораторы</h2>
+                    <p>Настоящие мужские игрушки</p>
+                    <a href="to-know-more.html">Открыть каталог</a>
+                  </div>
+                  <img class="slide-image image-2" src="img/slider-2.jpg" width="620" height="266" alt="Изображение перфораторов">
+                </li>
+              </ul>
+            <ul class="slider-pagination">
+              <li class="switcher">
+                <input class="slider-input-radio visually-hidden" type="radio" id="slider-1" value="phone" name="slide-page">
+                <label tabindex="0" for="slider-1">
+                <span class="visually-hidden">слайд 1</span>
+                </label>
+              </li>
+              <li class="switcher">
+                <input class="slider-input-radio visually-hidden" type="radio" id="slider-2" value="computer" name="slide-page" checked>
+                <label tabindex="0" for="slider-2">
+                <span class="visually-hidden">слайд 2</span>
+                </label>
+              </li>
+            </ul>
           </li>
           <li class="advantage-item">
-            <h3>Доставка</h3>
-            <a href="#">бесплатно</a>
+            <ul class="advantage-item column">
+              <li class="advantage-item discount">
+                <h3>Скидка 50%</h3>
+                <a href="#">на 350 товаров</a>
+              </li>
+              <li class="advantage-item delivery">
+                <h3>Доставка</h3>
+                <a href="#">бесплатно</a>
+              </li>
+            </ul>
           </li>
         </ul>
-      </section>
-      <div class="slide-column-image">
-        <ul class="slider-pagination">
-          <li class="switcher">
-            <input class="slider-input-radio visually-hidden" type="radio" id="slider-1" value="phone" name="slide-page">
-            <label tabindex="0" for="slider-1">
-            <span class="visually-hidden">слайд 1</span>
-            </label>
-          </li>
-          <li class="switcher">
-            <input class="slider-input-radio visually-hidden" type="radio" id="slider-2" value="computer" name="slide-page" checked>
-            <label tabindex="0" for="slider-2">
-            <span class="visually-hidden">слайд 2</span>
-            </label>
-          </li>
-        </ul>
-      </div>
       <h2 class="visually-hidden">Рекламные баннеры</h2>
-      <div class="slider-list">
-        <ul class="slider">
-          <li class="slide slide-active">
-            <div class="slide-column content-1">
-              <h2>Дрели</h2>
-              <p>Соседям на радость</p>
-              <a href="open-catalog.html">Открыть каталог</a>
-            </div>
-            <img class="slide-image image-1" src="img/slider-1.jpg" width="620" height="266" alt="Изображение дрели">
-          </li>
-          <li class="slide">
-            <div class="slide-column content-2">
-              <h2>Перфораторы</h2>
-              <p>Настоящие мужские игрушки</p>
-              <a href="to-know-more.html">Открыть каталог</a>
-            </div>
-            <img class="slide-image image-2" src="img/slider-2.jpg" width="620" height="266" alt="Изображение перфораторов">
-          </li>
-        </ul>
+      <div class="headline">
+        <h2 class="popular">Популярные товары</h2>
+        <a href="#">Все популярные товары</a>
       </div>
-      <section class="items">
-        <h2 class="visually-hidden">Список популярных товаров</h2>
-        <ul class="popular-list">
-          <li class="popular-item all">
-            <a href="#">Все популярные товары</a>
+      <ul class="popular-items">
           <li class="popular-item">
             <h2>Перфоратор BOSCH BFG 9000</h2>
             <img src="img/perforator_1.jpg" width="220" height="154" alt="Изображение перфоратора BOSCH BFG 9000">
@@ -158,12 +158,11 @@
             </div>
           </li>
         </ul>
-      </section>
-      <section class="brands">
-        <h2 class="visually-hidden">Список популярных производителей</h2>
+      <div class="headline">
+        <h2 class="popular">Популярные производители</h2>
+        <a href="#">Все популярные производители</a>
+      </div>
         <ul class="popular-brands-list">
-          <li class="popular-brands-item all">
-            <a href="#">Все популярные производители</a>
           <li class="popular-brands-item">
             <a href="#">
             <img src="img/bosch.jpg" width="126" height="37" alt="Логотип компании BOSCH">
@@ -205,23 +204,20 @@
             </a>
           </li>
         </ul>
-      </section>
       <section class="services">
-        <h2 class="services">Сервисы</h2>
-        <p>Хороший интернет-магазин отличается от плохого не только ценами!
-          Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
-        <p>
-        <div class="services-container">
-          <div class="services-list-menu">
-            <ul class="services-list">
-              <li><a href="#" class="button active">Доставка</a></li>
-              <li><a href="#" class="button">Гарантия</a></li>
-              <li><a href="#" class="button">Кредит</a></li>
-            </ul>
-          </div>
+        <div class="services-row">
+         <h2 class="services">Сервисы</h2>
+         <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
+          Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
         </div>
+        <div class="services-container">
+            <ul class="services-list">
+              <li><a href="#" class="button-advantage active">Доставка</a></li>
+              <li><a href="#" class="button-advantage">Гарантия</a></li>
+              <li><a href="#" class="button-advantage">Кредит</a></li>
+            </ul>
         <ul class="services-description">
-          <li class="delivery">
+          <li class="deliveries">
             <h3> Доставка</h3>
             <p class="description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо<br> заработаем, поднимая его на ваш этаж.</p>
             <img src="img/delivery.png" width="468" height="261" alt="Доставка">
@@ -237,6 +233,7 @@
             <img src="img/credit.png" width="468" height="285" alt="Кредит">
           </li>
         </ul>
+      </div>
       </section>
       <div class="bottom-row">
         <section class="about-us-column">
