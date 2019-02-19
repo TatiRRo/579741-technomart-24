@@ -19,12 +19,11 @@
               <form class="search" action="https://echo.htmlacademy.ru" method="post">
                 <input type="text" id="search" placeholder="Поиск по сайту"
                   aria-label="Поиск по сайту">
-                <button type="submit" class="search-btn"><span>Найти</span></button>
               </form>
             </li>
-            <li><a href="bookmarks.html">Закладки</a></li>
-            <li><a href="bucket.html">Корзина</a></li>
-            <li class="user-navigation-item active"><a href="order.html">Оформить заказ</a></li>
+            <li><a  class="user-navigation-item bookmarks" href="bookmarks.html">Закладки:0</a></li>
+            <li><a  class="user-navigation-item bucket" href="bucket.html">Корзина:0</a></li>
+            <li ><a class="user-navigation-item active" href="order.html">Оформить заказ</a></li>
           </ul>
         </nav>
         <section class="info-company">
@@ -114,44 +113,50 @@
         </ul>
       <h2 class="visually-hidden">Рекламные баннеры</h2>
       <div class="headline">
-        <h2 class="popular">Популярные товары</h2>
+        <h2 class="popular">Популярные товары:</h2>
         <a href="#">Все популярные товары</a>
       </div>
       <ul class="popular-items">
           <li class="popular-item">
-            <h2>Перфоратор BOSCH BFG 9000</h2>
             <img src="img/perforator_1.jpg" width="220" height="154" alt="Изображение перфоратора BOSCH BFG 9000">
-            <span class="old-item-price">32 500 P.</span>
-            <span class="new-item-price">25 500 P.</span>
+            <h2>Перфоратор BOSCH BFG 9000</h2>
+            <p1>
+              <span class="old-item-price">32 500 P.</span>
+              <a class="new-item-price">25 500 P.</a></span>
+            </p1>
             <div class="catalog-item-action">
               <a class="button" href="#">Купить</a>
               <a class="compare-item" href="#">В закладки</a>
             </div>
           </li>
           <li class="popular-item">
-            <h2>Перфоратор BOSCH BFG 3000</h2>
             <img src="img/perforator_2.jpg" width="220" height="154" alt="Изображение перфоратора BOSCH BFG 3000">
-            <span class="old-item-price">22 500 P.</span>
-            <span class="new-item-price">15 500 P.</span>
+            <h2>Перфоратор BOSCH BFG 3000</h2>
+            <p1>
+              <span class="old-item-price">22 500 P.</span>
+              <a class="new-item-price">15 500 P.</a></span>
+            </p1>
             <div class="catalog-item-action">
               <a class="button" href="#">Купить</a>
               <a class="compare-item" href="#">В закладки</a>
             </div>
           </li>
           <li class="popular-item">
-            <h2>Перфоратор BOSCH BFG 6000</h2>
             <img src="img/perforator_3.jpg" width="220" height="154" alt="Изображение перфоратора BOSCH BFG 6000">
-            <span class="old-item-price">30 500 P.</span>
-            <span class="new-item-price">25 500 P.</span>
+            <h2>Перфоратор BOSCH BFG 6000</h2>
+            <p1>
+              <span class="old-item-price">30 500 P.</span>
+              <a class="new-item-price">25 500 P.</a></span>
+           </p1>
             <div class="catalog-item-action">
               <a class="button" href="#">Купить</a>
               <a class="compare-item" href="#">В закладки</a>
             </div>
           </li>
           <li class="popular-item">
-            <h2>Перфоратор BOSCH BFG 2000</h2>
             <img src="img/perforator_4.jpg" width="220" height="154" alt="Изображение перфоратора BOSCH BFG 2000">
-            <span class="new-item-price">12 500 P.</span>
+            <h2>Перфоратор BOSCH BFG 2000</h2>
+            <p1><a class="new-item-price new">12 500 P.</a></p1>
             <div class="catalog-item-action">
               <a class="button" href="#">Купить</a>
               <a class="compare-item" href="#">В закладки</a>
@@ -159,7 +164,7 @@
           </li>
         </ul>
       <div class="headline">
-        <h2 class="popular">Популярные производители</h2>
+        <h2 class="popular">Популярные производители:</h2>
         <a href="#">Все популярные производители</a>
       </div>
         <ul class="popular-brands-list">
@@ -206,30 +211,28 @@
         </ul>
       <section class="services">
         <div class="services-row">
-         <h2 class="services">Сервисы</h2>
+         <h2>Сервисы</h2>
          <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
         </div>
         <div class="services-container">
             <ul class="services-list">
-              <li><a href="#" class="button-advantage active">Доставка</a></li>
-              <li><a href="#" class="button-advantage">Гарантия</a></li>
-              <li><a href="#" class="button-advantage">Кредит</a></li>
+              <li><a class="services-item" href="#" class="button-advantage active">Доставка</a></li>
+              <li><a class="services-item" href="#" class="button-advantage">Гарантия</a></li>
+              <li><a class="services-item" href="#" class="button-advantage">Кредит</a></li>
             </ul>
         <ul class="services-description">
-          <li class="deliveries">
+          <li>
             <h3> Доставка</h3>
-            <p class="description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо<br> заработаем, поднимая его на ваш этаж.</p>
-            <img src="img/delivery.png" width="468" height="261" alt="Доставка">
+            <p  class="deliveries">Мы с удовольствием доставим ваш товар прямо<br>к вашему подъезду совершенно бесплатно!<br>Ведь мы неплохо заработаем,<br>поднимая его на ваш этаж.</p>
           </li>
-          <li class="warranty is-hidden">
+          <li   class="is-hidden">
             <h3>Гарантия</h3>
-            <p class="description">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.<br>Товар, не дом, конечно же.</p>
-            <img src="img/garanty.png" width="389" height="283" alt="Гарантия">
+            <p  class="garanty">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.<br>Товар, не дом, конечно же.</p>
           </li>
-          <li class="credit is-hidden">
+          <li class="is-hidden">
             <h3>Кредит</h3>
-            <p class="description">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные<br> условия кредита. Выгодные для нашего банка, разумеется.</p>
+            <p class="credit">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные<br> условия кредита. Выгодные для нашего банка, разумеется.</p>
             <img src="img/credit.png" width="468" height="285" alt="Кредит">
           </li>
         </ul>
@@ -238,14 +241,13 @@
       <div class="bottom-row">
         <section class="about-us-column">
           <h2 class="info-header">Компания "Техномарт"</h2>
-          <p class="description">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+          <p class="description">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта<br> и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
           <div class="delivery-container">
-            <p class="description">Мы можем доставить ваш товар в самые отдаленные точки <br>России! Техномарт работает со многими транспортными компаниями</p>
-            <h3 class="visually-hidden">Транспортные комании</h3>
-            <ul class="delivery-list">
-              <li class="delivery-partner"><a href="#">Деловые Линии</a></li>
-              <li class="delivery-partner"><a href="#">Автотрейдинг</a></li>
-              <li class="delivery-partner"><a href="#">ЖелДорЭкспедиция</a></li>
+            <p class="description">Мы можем доставить ваш товар в самые отдаленные точки России!<br>Техномарт работает со многими транспортными компаниями</p>
+            <ul class="delivery-partner-list">
+              <li class="delivery-partner">Деловые Линии</li>
+              <li class="delivery-partner">Автотрейдинг</li>
+              <li class="delivery-partner">ЖелДорЭкспедиция</li>
             </ul>
           </div>
           <a href="#" class="button">Подробнее о компании</a>
@@ -284,10 +286,10 @@
         <div class="footer-section row-3">
           <p class="description-rights">© 2010–2019 Компания «Техномарт»<br>Все права защищены</p>
           <ul class="footer-social">
-            <li class="vk"><a class="footer-social-item" href="#"><img src="img/icon-vk.svg" alt="Vkontakte" width="26" height="15"><span class="visually-hidden">Vkontakte</span></a></li>
-            <li class="facebook"><a class="footer-social-item" href="#"><img src="img/icon-fb.svg" alt="Facebook" width="12" height="22"><span class="visually-hidden">Facebook</span></a></li>
-            <li class="instagram"><a class="footer-social-item" href="#"><img src="img/icon-insta.svg" alt="Instagram" width="21" height="21"><span class="visually-hidden">Instagram</span></a></li>
-          </ul>
+              <li class="vk"><a class="footer-social-item" href="#"><img src="img/icon-vk.svg" alt="Vkontakte" width="26" height="15"><span class="visually-hidden">Vkontakte</span></a></li>
+              <li class="facebook"><a class="footer-social-item" href="#"><img src="img/icon-fb.svg" alt="Facebook" width="12" height="22"><span class="visually-hidden">Facebook</span></a></li>
+              <li class="instagram"><a class="footer-social-item" href="#"><img src="img/icon-insta.svg" alt="Instagram" width="21" height="21"><span class="visually-hidden">Instagram</span></a></li>
+            </ul>
           <p class="description-rights">Обратная связь:<br>
             <a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
           </p>
