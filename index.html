@@ -11,42 +11,45 @@
     <header class="main-menu">
       <div class="main-menu-container">
         <nav aria-label="Содержимое" class="main-navigation">
-          <a class="main-header-logo" href="index.html">
-          <img src="img/logo-technomart.svg" width="137" height="22" alt="Логотип магазина Техномарт">
-          </a>
           <ul class="user-navigation index-header">
-            <li class="menu-column">
-              <form class="search" action="https://echo.htmlacademy.ru" method="post">
-                <input type="text" id="search" placeholder="Поиск по сайту"
-                  aria-label="Поиск по сайту">
-              </form>
+            <li class="menu-column-index">
+              <a class="main-header-logo" href="index.html">
+              <img src="img/logo-technomart.svg" width="110" height="20" alt="Логотип магазина Техномарт">
+              </a>
             </li>
-            <li><a  class="user-navigation-item bookmarks" href="bookmarks.html">Закладки:0</a></li>
-            <li><a  class="user-navigation-item bucket" href="bucket.html">Корзина:0</a></li>
-            <li ><a class="user-navigation-item active" href="order.html">Оформить заказ</a></li>
+            <li class="menu-column-search">
+              <form class="search" action="https://echo.htmlacademy.ru" method="post">
+                <input type="text" id="search" placeholder="Поиск:"
+                  aria-label="Поиск">
+              </form>
+             </li>
+             <li class="menu-column-bookmarks"><a  class="user-navigation-item bookmarks" href="bookmarks.html">Закладки:0</a></li>
+             <li class="menu-column-bucket"><a  class="user-navigation-item bucket" href="bucket.html">Корзина:0</a></li>
+             <li class="menu-column-order active"><a class="user-navigation-item active" href="order.html">Оформить заказ</a></li>
           </ul>
         </nav>
         <section class="info-company">
           <div class="about-us">
-            <h1>Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта</h1>
+            <h1>Интернет-магазин строительных материалов<br> и инструментов для ремонта</h1>
           </div>
           <div class="about-contacts">
-            <p><span>+7 (812) 555-05-55</span><br>г.Санкт-Петербург, ул. Б. Конюшенная</p>
+            <a href="#">+7 (812) 555-05-55</a>
+            <p class="address">г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
           </div>
           <ul class="login-navigation">
-            <li><a href="sing-in.html">Войти</a></li>
-            <li><a href="sing-up.html">Регистрация</a></li>
+            <li><a class="sing-in" href="sing-in.html">Войти</a></li>
+            <li><a class="sing-up" href="sing-up.html">Регистрация</a></li>
           </ul>
         </section>
-          <ul class="site-navigation">
-            <li><a class="navigation-item" href="index.html">Главная</a></li>
-            <li><a class="navigation-item" href="technomart.html">Компания</a></li>
-            <li><a class="navigation-item" href="catalog.html">Каталог</a></li>
-            <li><a class="navigation-item" href="news.html">Новости</a></li>
-            <li><a class="navigation-item" href="promo.html">Спецпредложения</a></li>
-            <li><a class="navigation-item" href="delivery.html">Доставка</a></li>
-            <li><a class="navigation-item" href="contacts.html">Контакты</a></li>
-          </ul>
+        <ul class="site-navigation">
+          <li class="site-navigation-index"><a class="navigation-item" href="index.html">Главная</a></li>
+          <li class="site-navigation-company"><a class="navigation-item" href="technomart.html">Компания</a></li>
+          <li class="site-navigation-catalog"><a class="navigation-item" href="catalog.html">Каталог</a></li>
+          <li class="site-navigation-news"><a class="navigation-item" href="news.html">Новости</a></li>
+          <li class="site-navigation-promo"><a class="navigation-item" href="promo.html">Спецпредложения</a></li>
+          <li class="site-navigation-delivery"><a class="navigation-item" href="delivery.html">Доставка</a></li>
+          <li class="site-navigation-contacts"><a class="navigation-item" href="contacts.html">Контакты</a></li>
+        </ul>
       </div>
     </header>
     <main>
@@ -66,21 +69,15 @@
           </li>
           <li class="advantage-item slider">
               <ul class="slider-list">
-                <li class="slide slide-active">
-                  <div class="slide-column content-1">
-                    <h2>Дрели</h2>
-                    <p>Соседям на радость</p>
-                    <a href="open-catalog.html">Открыть каталог</a>
-                  </div>
-                  <img class="slide-image image-1" src="img/slider-1.jpg" width="620" height="266" alt="Изображение дрели">
+                <li class="slide slide-active content-1">
+                  <h2>Дрели</h2>
+                  <p>Соседям на радость!</p>
+                  <a class="open-catalog" href="open-catalog.html" >Открыть каталог</a>
                 </li>
-                <li class="slide">
-                  <div class="slide-column content-2">
-                    <h2>Перфораторы</h2>
-                    <p>Настоящие мужские игрушки</p>
-                    <a href="to-know-more.html">Открыть каталог</a>
-                  </div>
-                  <img class="slide-image image-2" src="img/slider-2.jpg" width="620" height="266" alt="Изображение перфораторов">
+                <li class="slide content-2">
+                  <h2>Перфораторы</h2>
+                  <p>Настоящие мужские игрушки</p>
+                  <a class="open-catalog" href="to-know-more.html">Открыть каталог</a>
                 </li>
               </ul>
             <ul class="slider-pagination">
@@ -99,7 +96,7 @@
             </ul>
           </li>
           <li class="advantage-item">
-            <ul class="advantage-item column">
+            <ul class="advantage-list column">
               <li class="advantage-item discount">
                 <h3>Скидка 50%</h3>
                 <a href="#">на 350 товаров</a>
@@ -120,10 +117,10 @@
           <li class="popular-item">
             <img src="img/perforator_1.jpg" width="220" height="154" alt="Изображение перфоратора BOSCH BFG 9000">
             <h2>Перфоратор BOSCH BFG 9000</h2>
-            <p1>
+            <p class="prices">
               <span class="old-item-price">32 500 P.</span>
               <a class="new-item-price">25 500 P.</a></span>
-            </p1>
+            </p>
             <div class="catalog-item-action">
               <a class="button" href="#">Купить</a>
               <a class="compare-item" href="#">В закладки</a>
@@ -132,10 +129,10 @@
           <li class="popular-item">
             <img src="img/perforator_2.jpg" width="220" height="154" alt="Изображение перфоратора BOSCH BFG 3000">
             <h2>Перфоратор BOSCH BFG 3000</h2>
-            <p1>
+            <p class="prices">
               <span class="old-item-price">22 500 P.</span>
               <a class="new-item-price">15 500 P.</a></span>
-            </p1>
+            </p>
             <div class="catalog-item-action">
               <a class="button" href="#">Купить</a>
               <a class="compare-item" href="#">В закладки</a>
@@ -144,10 +141,10 @@
           <li class="popular-item">
             <img src="img/perforator_3.jpg" width="220" height="154" alt="Изображение перфоратора BOSCH BFG 6000">
             <h2>Перфоратор BOSCH BFG 6000</h2>
-            <p1>
+            <p class="prices">
               <span class="old-item-price">30 500 P.</span>
               <a class="new-item-price">25 500 P.</a></span>
-           </p1>
+           </p>
             <div class="catalog-item-action">
               <a class="button" href="#">Купить</a>
               <a class="compare-item" href="#">В закладки</a>
@@ -156,7 +153,7 @@
           <li class="popular-item">
             <img src="img/perforator_4.jpg" width="220" height="154" alt="Изображение перфоратора BOSCH BFG 2000">
             <h2>Перфоратор BOSCH BFG 2000</h2>
-            <p1><a class="new-item-price new">12 500 P.</a></p1>
+            <p class="prices"><a class="new-item-price new">12 500 P.</a></p>
             <div class="catalog-item-action">
               <a class="button" href="#">Купить</a>
               <a class="compare-item" href="#">В закладки</a>
