@@ -5,7 +5,7 @@
     <title>Магазин "Техномарт</title>
     <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/main.min.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-menu">
@@ -22,10 +22,10 @@
                 <input type="text" id="search" placeholder="Поиск:"
                   aria-label="Поиск">
               </form>
-             </li>
-             <li class="menu-column-bookmarks"><a  class="user-navigation-item bookmarks" href="bookmarks.html">Закладки:0</a></li>
-             <li class="menu-column-bucket"><a  class="user-navigation-item bucket" href="bucket.html">Корзина:10</a></li>
-             <li class="menu-column-order active"><a class="user-navigation-item active" href="order.html">Оформить заказ</a></li>
+            </li>
+            <li class="menu-column-bookmarks"><a  class="user-navigation-item bookmarks" href="bookmarks.html">Закладки: 0</a></li>
+            <li class="menu-column-bucket catalog-page-header"><a  class="user-navigation-item bucket" href="bucket.html">Корзина: 10</a></li>
+            <li class="menu-column-order"><a class="user-navigation-item order" href="order.html">Оформить заказ</a></li>
           </ul>
         </nav>
         <section class="info-company">
@@ -34,26 +34,26 @@
           </div>
           <div class="about-contacts">
             <a href="#">+7 (812) 555-05-55</a>
-            <p class="address">г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+            <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
           </div>
           <ul class="login">
             <li class="catalog login">
               <a class="login-button" href="login.html">Равшан Джамшутович</a>
               <a class="logout-button" href="logout.html"></a>
-           </li>
+            </li>
             <li class="catalog login-order"><a href="#">Мои заказы</a></li>
             <li class="catalog login-user"><a href="#">Личный кабинет</a></li>
           </ul>
-            </section>
-            <ul class="site-navigation">
-              <li class="site-navigation-index"><a class="navigation-item" href="index.html">Главная</a></li>
-              <li class="site-navigation-company"><a class="navigation-item" href="technomart.html">Компания</a></li>
-              <li class="site-navigation-catalog"><a class="navigation-item" href="catalog.html">Каталог</a></li>
-              <li class="site-navigation-news"><a class="navigation-item" href="news.html">Новости</a></li>
-              <li class="site-navigation-promo"><a class="navigation-item" href="promo.html">Спецпредложения</a></li>
-              <li class="site-navigation-delivery"><a class="navigation-item" href="delivery.html">Доставка</a></li>
-              <li class="site-navigation-contacts"><a class="navigation-item" href="contacts.html">Контакты</a></li>
-            </ul>
+        </section>
+        <ul class="site-navigation">
+          <li class="site-navigation-index"><a class="navigation-item" href="index.html">Главная</a></li>
+          <li class="site-navigation-company"><a class="navigation-item" href="technomart.html">Компания</a></li>
+          <li class="site-navigation-catalog"><a class="navigation-item" href="catalog.html">Каталог</a></li>
+          <li class="site-navigation-news"><a class="navigation-item" href="news.html">Новости</a></li>
+          <li class="site-navigation-promo"><a class="navigation-item" href="promo.html">Спецпредложения</a></li>
+          <li class="site-navigation-delivery"><a class="navigation-item" href="delivery.html">Доставка</a></li>
+          <li class="site-navigation-contacts"><a class="navigation-item" href="contacts.html">Контакты</a></li>
+        </ul>
       </div>
     </header>
     <main class="catalog-page">
@@ -134,8 +134,8 @@
               <li class="catalog-sort-item price"><a class="sorting-item selected" href="#">По цене</a></li>
               <li class="catalog-sort-item type"><a class="sorting-item" href="#">По типу</a></li>
               <li class="catalog-sort-item function"><a class="sorting-item" href="#">По функционалу</a></li>
-              <li class="catalog-sort-item down"><a class="sorting-item" href="#"><span class="visually-hidden">Вниз</span><img src="img/icon-up-dir.svg"></a></li>
-              <li class="catalog-sort-item up selected"><a class="sorting-item"href="#"><span class="visually-hidden">Вверх</span><img src="img/icon-down-dir.svg"></a></li>
+              <li class="catalog-sort-item down"><a class="sorting-item" href="#"><span class="visually-hidden">Вниз</span><img src="img/icon-up-dir.svg" alt="По возрастанию"></a></li>
+              <li class="catalog-sort-item up selected"><a class="sorting-item" href="#"><span class="visually-hidden">Вверх</span><img src="img/icon-down-dir.svg" alt="По убыванию"></a></li>
             </ul>
           </div>
           <ul class="catalog-pads">
@@ -144,13 +144,13 @@
                 <img src="img/perforator_2.jpg" alt="Перфоратор BOSCH BFG 3000" height="154" width="220">
                 <h2 class="item-name">Перфоратор BOSCH BFG 3000</h2>
                 <p class="prices">
-                 <span class="old-item-price catalog">22 500 P.</span>
-                 <span class="new-item-price catalog">15 500 p.</span>
+                  <span class="old-item-price catalog">22 500 P.</span>
+                  <span class="new-item-price catalog">15 500 p.</span>
                 </p>
               </a>
               <div class="catalog-item-action">
-                  <a class="button" href="#">Купить</a>
-                  <a class="compare-item" href="#">В закладки</a>
+                <a class="button" href="#">Купить</a>
+                <a class="compare-item" href="#">В закладки</a>
               </div>
             </li>
             <li class="catalog-item">
@@ -167,7 +167,7 @@
                 <a class="compare-item" href="#">В закладки</a>
               </div>
             </li>
-            <li class="catalog-item">
+            <li class="catalog-item flag">
               <a class="catalog-item-description" href="#">
                 <img src="img/perforator_4.jpg" alt="Перфоратор BOSCH BFG 2000" width="220" height="154">
                 <h2 class="item-name">Перфоратор BOSCH BFG 3000</h2>
@@ -188,11 +188,11 @@
                 </p>
               </a>
               <div class="catalog-item-action">
-                  <a class="button" href="#">Купить</a>
-                  <a class="compare-item" href="#">В закладки</a>
+                <a class="button" href="#">Купить</a>
+                <a class="compare-item" href="#">В закладки</a>
               </div>
             </li>
-            <li class="catalog-item">
+            <li class="catalog-item flag">
               <a class="catalog-item-description" href="#">
                 <img src="img/perforator_3.jpg" alt="Перфоратор BOSCH BFG 3000" height="154" width="220">
                 <h2 class="item-name">Перфоратор BOSCH BFG 6000</h2>
@@ -202,8 +202,8 @@
                 </p>
               </a>
               <div class="catalog-item-action">
-                  <a class="button" href="#">Купить</a>
-                  <a class="compare-item" href="#">В закладки</a>
+                <a class="button" href="#">Купить</a>
+                <a class="compare-item" href="#">В закладки</a>
               </div>
             </li>
             <li class="catalog-item">
@@ -213,11 +213,11 @@
                 <p class="prices"><span class="new-item-price new-catalog">12 500 p.</span></p>
               </a>
               <div class="catalog-item-action">
-                  <a class="button" href="#">Купить</a>
-                  <a class="compare-item" href="#">В закладки</a>
+                <a class="button" href="#">Купить</a>
+                <a class="compare-item" href="#">В закладки</a>
               </div>
             </li>
-            <li class="catalog-item">
+            <li class="catalog-item flag">
               <a class="catalog-item-description" href="#">
                 <img src="img/perforator_2.jpg" alt="Перфоратор BOSCH BFG 3000" height="154" width="220">
                 <h2 class="item-name">Перфоратор BOSCH BFG 3000</h2>
@@ -227,8 +227,8 @@
                 </p>
               </a>
               <div class="catalog-item-action">
-                  <a class="button" href="#">Купить</a>
-                  <a class="compare-item" href="#">В закладки</a>
+                <a class="button" href="#">Купить</a>
+                <a class="compare-item" href="#">В закладки</a>
               </div>
             </li>
             <li class="catalog-item">
@@ -241,8 +241,8 @@
                 </p>
               </a>
               <div class="catalog-item-action">
-                  <a class="button" href="#">Купить</a>
-                  <a class="compare-item" href="#">В закладки</a>
+                <a class="button" href="#">Купить</a>
+                <a class="compare-item" href="#">В закладки</a>
               </div>
             </li>
             <li class="catalog-item">
@@ -251,29 +251,29 @@
                 <h2 class="item-name">Перфоратор BOSCH BFG 3000</h2>
                 <p class="prices"><span class="new-item-price new-catalog">12 500 p.</span></p>
               </a>
-                <div class="catalog-item-action">
-                  <a class="button" href="#">Купить</a>
-                  <a class="compare-item" href="#">В закладки</a>
+              <div class="catalog-item-action">
+                <a class="button" href="#">Купить</a>
+                <a class="compare-item" href="#">В закладки</a>
               </div>
             </li>
           </ul>
           <ul class="pagination-list">
-                <li class="pagination-page-number active"><a tabindex="0" class="page-number">1</a></li>
-                <li class="pagination-page-number"><a tabindex="0" class="page-number">2</a></li>
-                <li class="pagination-page-number"><a tabindex="0" class="page-number">3</a></li>
-                <li class="pagination-page-number"><a tabindex="0" class="page-number">Следующая</a></li>
+            <li class="pagination-page-number active"><a tabindex="0" class="page-number">1</a></li>
+            <li class="pagination-page-number"><a tabindex="0" class="page-number">2</a></li>
+            <li class="pagination-page-number"><a tabindex="0" class="page-number">3</a></li>
+            <li class="pagination-page-number next"><a tabindex="0" class="page-number">Следующая</a></li>
           </ul>
         </div>
       </div>
       <section class="description-perforator">
         <h3 class="about-perforator">ПАРА СЛОВ О ПЕРФОРАТОРАХ</h3>
-        <p class="perforator">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В<br> ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+        <p class="perforator">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
       </section>
     </main>
     <footer class="main-footer">
       <div class="footer-container">
-        <div class="footer-section row-1">
-          <a><img class="main-footer-logo" src="img/logo-technomart.svg" width="137" height="22" alt="Логотип магазина Техномарт"></a>
+        <div class="footer-section bottom-row-1">
+          <a class="logo-footer"><img class="main-footer-logo" src="img/logo-technomart.svg" width="137" height="22" alt="Логотип магазина Техномарт"></a>
           <ul class="footer-navigation-company">
             <li><a class="footer-item" href="technomart.html">Компания</a></li>
             <li><a class="footer-item" href="#">Новости</a></li>
@@ -282,8 +282,8 @@
             <li><a class="footer-item" href="#">Контакты</a></li>
           </ul>
         </div>
-        <div class="footer-section row-2">
-          <span class="footer-address">г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8<br>+7 (812) 555-05-55</span>
+        <div class="footer-section bottom-row-2">
+          <span class="footer-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55</span>
           <ul class="footer-site-navigation">
             <li><a class="footer-site-navigation-item" href="#">Материалы</a></li>
             <li><a class="footer-site-navigation-item" href="#">Техника</a></li>
@@ -291,49 +291,23 @@
             <li><a class="footer-site-navigation-item" href="#">Спецпредложения</a></li>
           </ul>
         </div>
-        <div class="footer-section row-3">
-          <p class="description-rights technomart-2019">© 2010–2019 Компания «Техномарт»<br>Все права защищены</p>
-        <ul class="footer-social">
+      </div>
+      <div class="footer-container container-bottom">
+        <div class="footer-section bottom-row-3">
+          <p class="description-rights description-rights-copyright">© 2010–2019 Компания «Техномарт»<br>Все права защищены</p>
+          <ul class="footer-social">
             <li class="vk"><a class="footer-social-item" href="#"><img src="img/icon-vk.svg" alt="Vkontakte" width="26" height="15"><span class="visually-hidden">Vkontakte</span></a></li>
             <li class="facebook"><a class="footer-social-item" href="#"><img src="img/icon-fb.svg" alt="Facebook" width="12" height="22"><span class="visually-hidden">Facebook</span></a></li>
             <li class="instagram"><a class="footer-social-item" href="#"><img src="img/icon-insta.svg" alt="Instagram" width="21" height="21"><span class="visually-hidden">Instagram</span></a></li>
           </ul>
-          <p class="description-rights feedback-mail">Обратная связь:<br>
+          <p class="description-rights description-rights-callback">Обратная связь:<br>
             <a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
           </p>
-          <p class="description-rights developed-by">Разработано-<br>
+          <p class="description-rights description-rights-developed">Разработано-<br>
             <a href="htmlacademy.ru">htmlacademy.ru</a>
           </p>
         </div>
       </div>
     </footer>
-    <section class="modal contact-us">
-      <h2 class="visually-hidden">Задать вопрос</h2>
-      <p class="visually-hidden">Введите свой логин и пароль.</p>
-      <form class="modal-form" action="https://echo.htmlacademy.ru" method="post">
-        <div class="row-1">
-          <p class="contact-us-item">
-            <label for="input-mail" id="label-mail">Ваше имя:</label>
-            <input autocomplete="name" type="text" id="input-name" placeholder="Имя Фамилия" aria-labelledby="label-mail">
-          </p>
-          <p class="contact-us-item">
-            <label for="input-text">Ваш e-mail:</label>
-            <input type="email" id="input-mail" aria-labelledby="label-mail" aria-required="true" placeholder="example@example.com">
-          </p>
-        </div>
-        <div class="row-2">
-          <label for="input-text">Текст письма:</label>
-          <textarea name="input-text" id="input-text">В свободной форме</textarea>
-        </div>
-        <button class="form-submit button" type="submit">Отправить</button>
-      </form>
-      <button class="modal-close" type="button">Закрыть</button>
-    </section>
-    <section class="modal map">
-      <h2 class="visually-hidden">Карта</h2>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533252!2d30.320858716132967!3d59.938716481876185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1548529289852" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-      <button class="modal-close" type="button">Закрыть</button>
-    </section>
-    <script src="js/script.min.js"></script>
   </body>
-  </html>
+</html>
