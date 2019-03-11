@@ -5,7 +5,7 @@
     <title>Магазин "Техномарт</title>
     <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/main.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-menu">
@@ -21,6 +21,7 @@
               <form class="search" action="https://echo.htmlacademy.ru" method="post">
                 <input type="text" id="search" placeholder="Поиск:"
                   aria-label="Поиск">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"><path d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/></svg>
               </form>
             </li>
             <li class="menu-column-bookmarks"><a  class="user-navigation-item bookmarks" href="bookmarks.html">Закладки: 0</a></li>
@@ -41,14 +42,14 @@
             <li><a class="sing-up" href="sing-up.html">Регистрация</a></li>
           </ul>
         </section>
-        <ul class="site-navigation">
-          <li class="site-navigation-index"><a class="navigation-item" href="index.html">Главная</a></li>
-          <li class="site-navigation-company"><a class="navigation-item" href="technomart.html">Компания</a></li>
-          <li class="site-navigation-catalog"><a class="navigation-item" href="catalog.html">Каталог</a></li>
-          <li class="site-navigation-news"><a class="navigation-item" href="news.html">Новости</a></li>
-          <li class="site-navigation-promo"><a class="navigation-item" href="promo.html">Спецпредложения</a></li>
-          <li class="site-navigation-delivery"><a class="navigation-item" href="delivery.html">Доставка</a></li>
-          <li class="site-navigation-contacts"><a class="navigation-item" href="contacts.html">Контакты</a></li>
+        <ul class="site-navigation-list">
+          <li class="site-navigation"><a class="navigation-item" href="index.html">Главная</a></li>
+          <li class="site-navigation"><a class="navigation-item" href="technomart.html">Компания</a></li>
+          <li class="site-navigation"><a class="navigation-item" href="catalog.html">Каталог</a></li>
+          <li class="site-navigation"><a class="navigation-item" href="news.html">Новости</a></li>
+          <li class="site-navigation navigation-list-promo"><a class="navigation-item" href="promo.html">Спецпредложения</a></li>
+          <li class="site-navigation"><a class="navigation-item" href="delivery.html">Доставка</a></li>
+          <li class="site-navigation"><a class="navigation-item" href="contacts.html">Контакты</a></li>
         </ul>
       </div>
     </header>
@@ -57,15 +58,15 @@
       <ul class="advantages-list row">
         <li class="advantage-item materials">
           <h3>Материалы</h3>
-          <a href="#">на любой вкус</a>
+          <a class="advantage-button" href="#">на любой вкус</a>
         </li>
         <li class="advantage-item instrument">
           <h3>Инструмент</h3>
-          <a href="#">на все случаи</a>
+          <a class="advantage-button" href="#">на все случаи</a>
         </li>
         <li class="advantage-item equipment">
           <h3>Техника</h3>
-          <a href="#">для стройки</a>
+          <a class="advantage-button" href="#">для стройки</a>
         </li>
         <li class="advantage-item slider">
           <input checked class="slider-input-radio left visually-hidden" type="radio" id="slider-1" value="phone" name="slide-page">
@@ -80,12 +81,12 @@
             <li class="slide content-1" id="slide1">
               <h2>Дрели</h2>
               <p>Соседям на радость!</p>
-              <a class="open-catalog" href="open-catalog.html" >Открыть каталог</a>
+              <a class="button open-catalog" href="open-catalog.html" >Открыть каталог</a>
             </li>
             <li class="slide content-2" id="slide2">
               <h2>Перфораторы</h2>
               <p>Настоящие мужские игрушки</p>
-              <a class="open-catalog" href="to-know-more.html">Открыть каталог</a>
+              <a class="button open-catalog" href="to-know-more.html">Открыть каталог</a>
             </li>
           </ul>
         </li>
@@ -93,11 +94,11 @@
           <ul class="advantage-list column">
             <li class="advantage-item discount">
               <h3>Скидка 50%</h3>
-              <a href="#">на 350 товаров</a>
+              <a class="advantage-button" href="#">на 350 товаров</a>
             </li>
             <li class="advantage-item delivery">
               <h3>Доставка</h3>
-              <a href="#">бесплатно</a>
+              <a class="advantage-button" href="#">бесплатно</a>
             </li>
           </ul>
         </li>
@@ -105,7 +106,7 @@
       <h2 class="visually-hidden">Рекламные баннеры</h2>
       <div class="headline items">
         <h2 class="popular">Популярные товары:</h2>
-        <a href="#">Все популярные товары</a>
+        <a class="button items-button" href="#">Все популярные товары</a>
       </div>
       <ul class="popular-items">
         <li class="popular-item">
@@ -156,46 +157,46 @@
       </ul>
       <div class="headline manufacture">
         <h2 class="popular">Популярные производители:</h2>
-        <a href="#">Все производители</a>
+        <a class="button manufacture-button" href="#">Все производители</a>
       </div>
       <ul class="popular-brands-list">
         <li class="popular-brands-item">
-          <a href="#">
+          <a class="bosch" href="#">
           <img src="img/bosch.jpg" width="126" height="37" alt="Логотип компании BOSCH">
           </a>
         </li>
         <li class="popular-brands-item">
-          <a href="#">
+          <a class="makita" href="#">
           <img src="img/makita.jpg" width="123" height="40" alt="Логотип компании MAKITA">
           </a>
         </li>
         <li class="popular-brands-item">
-          <a href="#">
+          <a class="dewalt" href="#">
           <img src="img/dewalt.jpg" width="146" height="44" alt="Логотип компании DEWALT">
           </a>
         </li>
         <li class="popular-brands-item">
-          <a href="#">
+          <a class="interskol" href="#">
           <img src="img/interskol.png" width="200" height="88" alt="Логотип компании ИНТЕРСКОЛ">
           </a>
         </li>
         <li class="popular-brands-item">
-          <a href="#">
+          <a class="hitachi" href="#">
           <img src="img/hitachi.png" width="169" height="31" alt="Логотип компании HITACHI">
           </a>
         </li>
         <li class="popular-brands-item">
-          <a href="#">
+          <a class="lg" href="#">
           <img src="img/lg.png" width="121" height="73" alt="Логотип компании LG">
           </a>
         </li>
         <li class="popular-brands-item">
-          <a href="#">
+          <a class="aeg" href="#">
           <img src="img/aeg.png" width="151" height="96" alt="Логотип компании AEG">
           </a>
         </li>
         <li class="popular-brands-item">
-          <a href="#">
+          <a class="metabo" href="#">
           <img src="img/metabo.png" width="204" height="69" alt="Логотип компании METABO">
           </a>
         </li>
