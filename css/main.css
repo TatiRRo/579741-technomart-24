@@ -429,7 +429,7 @@ a {
 	-webkit-box-align: end;
 	-ms-flex-align: end;
 	align-items: flex-end;
-	padding-bottom: 52px;
+	padding-bottom: 51px;
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
@@ -491,7 +491,7 @@ a {
 	font-weight: normal;
 	display: flex;
 	flex-direction: column;
-	margin-top: 35px;
+	margin-top: 36px;
 }
 
 .description-rights-copyright {
@@ -1241,7 +1241,7 @@ img {
 	display: -ms-flexbox;
 	display: flex;
 	width: 940px;
-	margin: auto;
+	margin: 0 auto;
   padding-bottom: 98px;
 }
 
@@ -1680,6 +1680,7 @@ img {
 	font-weight: 300;
 	padding-left: 37px;
 	margin-top: 19px;
+	margin-bottom: 45px;
 }
 
 .delivery-partner {
@@ -1698,7 +1699,7 @@ img {
 }
 
 .about-us-column {
-  padding-bottom: 91px;
+  padding-bottom: 47px;
 }
 
 .contact-map {
