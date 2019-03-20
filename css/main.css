@@ -2591,3 +2591,11 @@ background: linear-gradient(to bottom, #ee3643 6px, #fff 6px 169px, #dee3e4 169p
 	margin-top: 2px;
 	margin-left: 1px;
 }
+
+.test{
+	position: absolute;
+z-index: 5;
+opacity: 0.5;
+top: -3px;
+right: 119px;
+}
