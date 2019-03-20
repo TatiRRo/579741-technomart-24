@@ -3,26 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Магазин "Техномарт</title>
-    <link href="https://fonts.googleapis.com/css?family=Cuprum&amp;subset=cyrillic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/main.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-menu">
       <div class="main-menu-container">
         <nav aria-label="Содержимое" class="main-navigation">
           <ul class="user-navigation index-header">
-            <li class="menu-column-index">
-              <a class="main-header-logo" href="index.html">
+            <li class="menu-column-index main-header-logo">
               <img src="img/logo-technomart.svg" width="110" height="20" alt="Логотип магазина Техномарт">
-              </a>
             </li>
             <li class="menu-column-search">
               <form class="search" action="https://echo.htmlacademy.ru" method="post">
                 <input type="text" id="search" placeholder="Поиск:"
                   aria-label="Поиск">
-                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"><path d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/></svg>
               </form>
             </li>
             <li class="menu-column-bookmarks"><a  class="user-navigation-item bookmarks" href="bookmarks.html">Закладки: 0</a></li>
@@ -82,12 +77,12 @@
             <li class="slide content-1" id="slide1">
               <h2>Дрели</h2>
               <p>Соседям на радость!</p>
-              <a class="button open-catalog" href="open-catalog.html" >Открыть каталог</a>
+              <a class="button open-catalog" href="catalog.html" >Открыть каталог</a>
             </li>
             <li class="slide content-2" id="slide2">
               <h2>Перфораторы</h2>
               <p>Настоящие мужские игрушки</p>
-              <a class="button open-catalog" href="to-know-more.html">Открыть каталог</a>
+              <a class="button open-catalog" href="catalog.html">Открыть каталог</a>
             </li>
           </ul>
         </li>
@@ -111,45 +106,53 @@
       </div>
       <ul class="popular-items">
         <li class="popular-item">
-          <img src="img/perforator_1.jpg" width="218" height="170" alt="Изображение перфоратора BOSCH BFG 9000">
-          <h2>Перфоратор BOSCH BFG 9000</h2>
-          <p class="prices">
-            <span class="old-item-price">32 500 P.</span>
-            <a class="new-item-price">25 500 P.</a>
-          </p>
+          <a class="catalog-item-description" href="#">
+            <img src="img/perforator_1.jpg" width="218" height="170" alt="Изображение перфоратора BOSCH BFG 9000">
+            <h2>Перфоратор BOSCH BFG 9000</h2>
+            <p class="prices">
+              <span class="old-item-price">32 500 P.</span>
+              <span class="new-item-price catalog">25 500 P.</span>
+            </p>
+          </a>
           <div class="catalog-item-action">
             <a class="button" href="#">Купить</a>
             <a class="compare-item" href="#">В закладки</a>
           </div>
         </li>
         <li class="popular-item">
-          <img src="img/perforator_2.jpg" width="218" height="170" alt="Изображение перфоратора BOSCH BFG 3000">
-          <h2>Перфоратор BOSCH BFG 3000</h2>
-          <p class="prices">
-            <span class="old-item-price">22 500 P.</span>
-            <a class="new-item-price">15 500 P.</a>
-          </p>
+          <a class="catalog-item-description" href="#">
+            <img src="img/perforator_2.jpg" width="218" height="170" alt="Изображение перфоратора BOSCH BFG 3000">
+            <h2>Перфоратор BOSCH BFG 3000</h2>
+            <p class="prices">
+              <span class="old-item-price">22 500 P.</span>
+              <span class="new-item-price catalog">15 500 P.</span>
+            </p>
+          </a>
           <div class="catalog-item-action">
             <a class="button" href="#">Купить</a>
             <a class="compare-item" href="#">В закладки</a>
           </div>
         </li>
         <li class="popular-item">
-          <img src="img/perforator_3.jpg" width="218" height="170" alt="Изображение перфоратора BOSCH BFG 6000">
-          <h2>Перфоратор BOSCH BFG 6000</h2>
-          <p class="prices">
-            <span class="old-item-price">30 500 P.</span>
-            <a class="new-item-price">25 500 P.</a>
-          </p>
+          <a class="catalog-item-description" href="#">
+            <img src="img/perforator_3.jpg" width="218" height="170" alt="Изображение перфоратора BOSCH BFG 6000">
+            <h2>Перфоратор BOSCH BFG 6000</h2>
+            <p class="prices">
+              <span class="old-item-price">30 500 P.</span>
+              <span class="new-item-price catalog">25 500 P.</span>
+            </p>
+          </a>
           <div class="catalog-item-action">
             <a class="button" href="#">Купить</a>
             <a class="compare-item" href="#">В закладки</a>
           </div>
         </li>
         <li class="popular-item">
-          <img src="img/perforator_4.jpg" width="218" height="170" alt="Изображение перфоратора BOSCH BFG 2000">
-          <h2>Перфоратор BOSCH BFG 2000</h2>
-          <p class="prices"><a class="new-item-price new">12 500 P.</a></p>
+          <a class="catalog-item-description" href="#">
+            <img src="img/perforator_4.jpg" width="218" height="170" alt="Изображение перфоратора BOSCH BFG 2000">
+            <h2>Перфоратор BOSCH BFG 2000</h2>
+            <p class="prices"><span class="new-item-price new-catalog">12 500 P.</span></p>
+          </a>
           <div class="catalog-item-action">
             <a class="button" href="#">Купить</a>
             <a class="compare-item" href="#">В закладки</a>
@@ -286,10 +289,10 @@
             <li class="facebook"><a class="footer-social-item" href="#"><img src="img/icon-fb.svg" alt="Facebook" width="12" height="22"><span class="visually-hidden">Facebook</span></a></li>
             <li class="instagram"><a class="footer-social-item" href="#"><img src="img/icon-insta.svg" alt="Instagram" width="21" height="21"><span class="visually-hidden">Instagram</span></a></li>
           </ul>
-          <p class="description-rights description-rights-callback">Обратная связь:<br>
+          <p class="description-rights description-rights-callback">Обратная связь:
             <a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
           </p>
-          <p class="description-rights description-rights-developed">Разработано-<br>
+          <p class="description-rights description-rights-developed">Разработано-
             <a href="htmlacademy.ru">htmlacademy.ru</a>
           </p>
         </div>
@@ -300,11 +303,11 @@
       <form class="modal-form" action="https://echo.htmlacademy.ru" method="post">
         <div class="row-1">
           <p class="contact-us-item">
-            <label for="input-mail" id="label-mail">Ваше имя:</label>
-            <input autocomplete="name" type="text" id="input-name" placeholder="Имя Фамилия" aria-labelledby="label-mail">
+            <label for="input-name" id="label-name">Ваше имя:</label>
+            <input autocomplete="name" type="text" id="input-name" placeholder="Имя Фамилия" aria-labelledby="label-name">
           </p>
           <p class="contact-us-item">
-            <label for="input-text">Ваш e-mail:</label>
+            <label for="input-mail">Ваш e-mail:</label>
             <input type="email" id="input-mail" aria-labelledby="label-mail" aria-required="true" placeholder="example@example.com">
           </p>
         </div>

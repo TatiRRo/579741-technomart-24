@@ -3,10 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Магазин "Техномарт</title>
-    <link href="https://fonts.googleapis.com/css?family=Cuprum&amp;subset=cyrillic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/main.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-menu">
@@ -14,7 +12,7 @@
         <nav aria-label="Содержимое" class="main-navigation">
           <ul class="user-navigation index-header">
             <li class="menu-column-index">
-              <a class="main-header-logo" href="index.html">
+              <a class="user-navigation-item main-catalog-logo" href="index.html">
               <img src="img/logo-technomart.svg" width="110" height="20" alt="Логотип магазина Техномарт">
               </a>
             </li>
@@ -22,7 +20,6 @@
               <form class="search" action="https://echo.htmlacademy.ru" method="post">
                 <input type="text" id="search" placeholder="Поиск:"
                   aria-label="Поиск">
-                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"><path d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/></svg>
               </form>
             </li>
             <li class="menu-column-bookmarks"><a  class="user-navigation-item bookmarks" href="bookmarks.html">Закладки: 0</a></li>
@@ -73,7 +70,7 @@
           <div class="left-column filter"><span>Фильтр:</span></div>
           <form class="catalog-view-column filter" action="https://echo.htmlacademy.ru" method="post">
             <fieldset class="filter-item">
-              <legend>Цена:</legend>
+              <legend class="legend-item">Цена:</legend>
               <div class="range-filter">
                 <div class="range-controls">
                   <div class="scale">
@@ -89,7 +86,7 @@
               </div>
             </fieldset>
             <fieldset class="filter-brand">
-              <legend>Производители:</legend>
+              <legend class="legend-brand">Производители:</legend>
               <ul class="filter-option-list">
                 <li class="filter-option">
                   <input class="filter-input-checkbox visually-hidden" type="checkbox" id="brand-bosch" name="brand-bosch" value="bosch" checked>
@@ -114,7 +111,7 @@
               </ul>
             </fieldset>
             <fieldset class="filter-power">
-              <legend>Питание:</legend>
+              <legend class="legend-power">Питание:</legend>
               <ul class="filter-option-list">
                 <li class="filter-option">
                   <input class="filter-input-radio visually-hidden" type="radio" id="battery-power" name="power" value="battery" checked>
@@ -137,12 +134,12 @@
               <li class="catalog-sort-item type"><a class="sorting-item" href="#">По типу</a></li>
               <li class="catalog-sort-item function"><a class="sorting-item" href="#">По функционалу</a></li>
               <li class="catalog-sort-item down">
-                <a class="sorting-item" href="#">
+                <a class="sorting-item selected" href="#">
                   <span class="visually-hidden">Вниз</span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path d="M5.5 0L0 10h11z"/></svg>
                 </a>
               </li>
-              <li class="catalog-sort-item up selected">
+              <li class="catalog-sort-item up">
                 <a class="sorting-item" href="#">
                   <span class="visually-hidden">Вверх</span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path d="M5.5 10L0 0h11"/></svg>
@@ -270,10 +267,10 @@
             </li>
           </ul>
           <ul class="pagination-list">
-            <li class="pagination-page-number active"><a class="page-number">1</a></li>
-            <li class="pagination-page-number"><a class="page-number">2</a></li>
-            <li class="pagination-page-number"><a class="page-number">3</a></li>
-            <li class="pagination-page-number next"><a class="page-number">Следующая</a></li>
+            <li class="pagination-page-number active"><a class="page-number" href="#">1</a></li>
+            <li class="pagination-page-number"><a class="page-number" href="#">2</a></li>
+            <li class="pagination-page-number"><a class="page-number" href="#">3</a></li>
+            <li class="pagination-page-number next"><a class="page-number" href="#">Следующая</a></li>
           </ul>
         </div>
       </div>
@@ -312,14 +309,26 @@
             <li class="facebook"><a class="footer-social-item" href="#"><img src="img/icon-fb.svg" alt="Facebook" width="12" height="22"><span class="visually-hidden">Facebook</span></a></li>
             <li class="instagram"><a class="footer-social-item" href="#"><img src="img/icon-insta.svg" alt="Instagram" width="21" height="21"><span class="visually-hidden">Instagram</span></a></li>
           </ul>
-          <p class="description-rights description-rights-callback">Обратная связь:<br>
+          <p class="description-rights description-rights-callback">Обратная связь:
             <a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
           </p>
-          <p class="description-rights description-rights-developed">Разработано-<br>
+          <p class="description-rights description-rights-developed">Разработано-
             <a href="htmlacademy.ru">htmlacademy.ru</a>
           </p>
         </div>
       </div>
     </footer>
+    <section class="modal add-item">
+      <h3 class="added-item">Товар добавлен в корзину!</h2>
+        <ul class="bucket-navigation-list">
+          <li class="bucket-navigation-item checkout">
+            <a class="bucket-item" htef="#">Оформить заказ</a>
+          </li>
+          <li class="bucket-navigation-item shopping">
+            <a class="bucket-item" htef="#">Продолжить покупки</a>
+          </li>
+        </ul>
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>
   </body>
 </html>
