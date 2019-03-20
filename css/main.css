@@ -462,8 +462,8 @@ a {
 	line-height: 23px;
 	color: #f3f7f9;
 	font-weight: normal;
-	margin-top: 23px;
-	padding-left: 5px;
+	margin-top: 24px;
+	padding-left: 4px;
 	width: 340px;
 	letter-spacing: -0.37px;
 }
@@ -491,7 +491,7 @@ a {
 	font-weight: normal;
 	display: flex;
 	flex-direction: column;
-	margin-top: 38px;
+	margin-top: 35px;
 }
 
 .description-rights-copyright {
@@ -534,7 +534,7 @@ a {
 	list-style-type: none;
 	width: 160px;
 	margin-left: 93px;
-	margin-top: 37px;
+	margin-top: 35px;
 	margin-right: 52px;
 	padding: 0;
 }
@@ -1242,7 +1242,7 @@ img {
 	display: flex;
 	width: 940px;
 	margin: auto;
-  padding-bottom: 84px;
+  padding-bottom: 98px;
 }
 
 .services-list {
@@ -1250,7 +1250,7 @@ img {
 	width: 240px;
 	min-height: 187px;
 	padding-left: 0;
-	margin-right: 81px;
+  margin: 13px 81px 0 0
 
 }
 
