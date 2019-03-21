@@ -1760,7 +1760,7 @@ img {
 
 .range-controls {
 	position: relative;
-	padding-top: 39px;
+	padding-top: 42px;
 }
 
 .range-controls .scale {
@@ -1820,7 +1820,7 @@ img {
 }
 
 .filter-brand {
-	margin-top: 82px;
+	margin-top: 94px;
 	padding: 0;
 }
 
@@ -1840,16 +1840,15 @@ img {
 }
 
 .filter-power {
-	margin-top: 39px;
-	padding-left: 0;
-	padding-top: 0px;
+	margin-top: 40px;
+  padding: 0;
 }
 
 .filter-option {
 	line-height: 20px;
 	font-size: 15px;
 	padding-right: 5px;
-	margin-top: 6px;
+	margin-top: 13px;
 	font-weight: 400;
 	text-transform: uppercase;
 }
@@ -1950,7 +1949,7 @@ img {
 
 .filter-item {
 	margin-top: 18px;
-	padding-left: 0;
+	padding: 0;
 }
 
 .catalog-sort-column.sort {
