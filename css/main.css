@@ -297,7 +297,6 @@ a {
 	text-transform: uppercase;
 	font-weight: normal;
 	margin-top: 23px;
-	margin-bottom: 25px;
 }
 
 .deliveries,
@@ -327,9 +326,6 @@ a {
 	letter-spacing: 0.1px;
 }
 
-.row-1 {
-	margin-bottom: 25px;
-}
 
 .row-2 {
 	width: 441px;
@@ -947,6 +943,7 @@ a {
 	font-family: 'PT Sans', 'Arial', sans-serif;
 	margin-top: 9px;
 	color:#000;
+	letter-spacing: -0.1px;
 }
 
 .catalog-item:hover,
@@ -1205,7 +1202,7 @@ img {
 
 .services {
 	width: auto;
-	margin: auto;
+	margin: 0 auto;
 	background-color: #f4f7f9;
 	z-index: 0;
 	position: relative;
@@ -1214,7 +1211,7 @@ img {
 .services-row {
 	width: 940px;
 	margin: 0 auto;
-	padding: 39px 0;
+	padding: 41px 0;
 	margin-bottom: 5px;
 }
 
@@ -1749,7 +1746,7 @@ img {
 	line-height: 30px;
 	text-transform: uppercase;
 	font-weight: 700;
-	margin-bottom: 9px;
+	margin-bottom: 12px;
 }
 
 .range-filter {
@@ -1848,7 +1845,6 @@ img {
 	line-height: 20px;
 	font-size: 15px;
 	padding-right: 5px;
-	margin-top: 13px;
 	font-weight: 400;
 	text-transform: uppercase;
 }
@@ -1933,7 +1929,7 @@ img {
 	border-radius: 3px;
 	line-height: 17px;
 	border: 1px solid #dee3e4;
-	margin-top: 71px;
+	margin-top: 79px;
 }
 
 .left-column.filter span {
@@ -2023,7 +2019,7 @@ img {
 	margin-bottom: 10px;
 	font-family: 'PT Sans', 'Arial', sans-serif;
 	margin-top: 8px;
-	font-stretch: semi-condensed;
+	letter-spacing: -0.4px;
 }
 
 .page-number {
@@ -2088,8 +2084,8 @@ img {
 }
 
 .description-perforator {
-	margin: auto;
-	padding: 61px 322px;
+	margin: 0 auto;
+	padding: 61px 206px;
 	background-color: #f2f6f8;
 	margin-top: 46px;
 	letter-spacing: -0.3px;
@@ -2103,7 +2099,7 @@ img {
 	width: 940px;
 	margin: 0 auto;
 	margin-top: 6px;
-	padding-right: 43PX;
+	padding-right: 0;
 	margin-bottom: 26px;
 	word-spacing: 2px;
 }
