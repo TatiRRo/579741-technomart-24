@@ -288,7 +288,8 @@ a {
 	display: flex;
 	width: 940px;
 	margin: auto;
-	margin-top: 56px;
+	margin-top: 55px;
+	padding-bottom: 43px;
 }
 
 .info-header {
@@ -1212,7 +1213,6 @@ img {
 	width: 940px;
 	margin: 0 auto;
 	padding: 41px 0;
-	margin-bottom: 5px;
 }
 
 .services-row h2 {
@@ -1221,7 +1221,7 @@ img {
 	text-transform: uppercase;
 	color: #000;
 	font-weight: 400;
-	margin:23px 0 27px;
+	margin:23px auto 27px;
 }
 
 .services-row p {
@@ -1255,7 +1255,7 @@ img {
 .services-list li {
 	width: 240px;
 	background-color: #32425c;
-  padding: 14px 0px 16px 0px;
+  padding: 15px 0px 16px 0px;
 	box-shadow: inset -7px 0 23px -7px rgba(0,0,0,0.7);
 	border-bottom: solid 1px #293449;
 	border-top: solid 1px #405069;
@@ -1697,7 +1697,7 @@ img {
 }
 
 .about-us-column {
-  padding-bottom: 47px;
+  margin: 4px auto;
 }
 
 .contact-map {
@@ -1817,7 +1817,7 @@ img {
 }
 
 .filter-brand {
-	margin-top: 94px;
+	margin-top: 91px;
 	padding: 0;
 }
 
@@ -1837,7 +1837,7 @@ img {
 }
 
 .filter-power {
-	margin-top: 40px;
+	margin-top: 42px;
   padding: 0;
 }
 
@@ -1929,7 +1929,7 @@ img {
 	border-radius: 3px;
 	line-height: 17px;
 	border: 1px solid #dee3e4;
-	margin-top: 79px;
+	margin-top: 80px;
 }
 
 .left-column.filter span {
