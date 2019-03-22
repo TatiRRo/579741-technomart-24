@@ -1130,6 +1130,8 @@ a {
 	flex-wrap: wrap;
 	padding-left: 0;
 	margin-bottom: 72px;
+  min-height: 332px;
+	margin-bottom: 68px;
 }
 
 .popular-brands-item {
@@ -1140,6 +1142,7 @@ a {
 	margin-left: 0;
 	margin-right: 0px;
 	text-align: center;
+	height: 140px;
 }
 
 .popular-brands-item:hover {
