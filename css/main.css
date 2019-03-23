@@ -350,7 +350,7 @@ a {
 }
 
 .more-about {
-  padding: 10px 40px 11px 41px;
+  padding: 11px 40px 11px 41px;
 }
 
 .contacts-bottom-row {
@@ -2359,10 +2359,9 @@ img {
 	position: fixed;
 	left: calc(50% - 310px);
   top: calc(50% - 157px);
-	background: -webkit-linear-gradient(to bottom, #ee3643 6px, #fff 6px 169px, #dee3e4 169px );
-	background: -o-linear-gradient(to bottom, #ee3643 6px, #fff 6px 169px, #dee3e4 169px );
-background: linear-gradient(to bottom, #ee3643 6px, #fff 6px 169px, #dee3e4 169px );
 	z-index: 3;
+	box-shadow: 0 -112px 0px 0px #f4f4f4 inset, 0 7px 0px 0px #ff5257 inset;
+  background-color: #fff;
 }
 
 
