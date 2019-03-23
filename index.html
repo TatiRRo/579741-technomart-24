@@ -115,7 +115,7 @@
             </p>
           </a>
           <div class="catalog-item-action">
-            <a class="button" href="#">Купить</a>
+            <a class="button buy" href="#">Купить</a>
             <a class="compare-item" href="#">В закладки</a>
           </div>
         </li>
@@ -129,7 +129,7 @@
             </p>
           </a>
           <div class="catalog-item-action">
-            <a class="button" href="#">Купить</a>
+            <a class="button buy" href="#">Купить</a>
             <a class="compare-item" href="#">В закладки</a>
           </div>
         </li>
@@ -143,7 +143,7 @@
             </p>
           </a>
           <div class="catalog-item-action">
-            <a class="button" href="#">Купить</a>
+            <a class="button buy" href="#">Купить</a>
             <a class="compare-item" href="#">В закладки</a>
           </div>
         </li>
@@ -154,7 +154,7 @@
             <p class="prices"><span class="new-item-price new-catalog">12 500 P.</span></p>
           </a>
           <div class="catalog-item-action">
-            <a class="button" href="#">Купить</a>
+            <a class="button buy" href="#">Купить</a>
             <a class="compare-item" href="#">В закладки</a>
           </div>
         </li>
@@ -304,16 +304,16 @@
         <div class="row-1">
           <p class="contact-us-item">
             <label for="input-name" id="label-name">Ваше имя:</label>
-            <input autocomplete="name" type="text" id="input-name" placeholder="Имя Фамилия" aria-label="label-name">
+            <input autocomplete="name" type="text" id="input-name" name="login" placeholder="Имя Фамилия" aria-label="label-name">
           </p>
           <p class="contact-us-item">
             <label for="input-mail">Ваш e-mail:</label>
-            <input type="email" id="input-mail" aria-label="label-mail" aria-required="true" placeholder="example@example.com">
+            <input type="email" id="input-mail" aria-label="label-mail" name="password" aria-required="true" placeholder="example@example.com">
           </p>
         </div>
         <div class="row-2">
           <label for="input-text">Текст письма:</label>
-          <textarea name="input-text" id="input-text">В свободной форме</textarea>
+          <textarea name="input-text" id="input-text" placeholder="В свободной форме"></textarea>
         </div>
         <button class="form-submit button" type="submit">Отправить</button>
       </form>
@@ -322,6 +322,18 @@
     <section class="modal map">
       <h2 class="visually-hidden">Карта</h2>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533252!2d30.320858716132967!3d59.938716481876185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1548529289852" width="940" height="450"  style="border:0" allowfullscreen></iframe>
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>
+    <section class="modal add-item">
+      <h3 class="added-item">Товар добавлен в корзину!</h3>
+        <ul class="bucket-navigation-list">
+          <li class="bucket-navigation-item checkout">
+            <a class="bucket-item" href="#">Оформить заказ</a>
+          </li>
+          <li class="bucket-navigation-item shopping">
+            <a class="bucket-item" href="#">Продолжить покупки</a>
+          </li>
+        </ul>
       <button class="modal-close" type="button">Закрыть</button>
     </section>
     <script src="js/script.min.js"></script>
