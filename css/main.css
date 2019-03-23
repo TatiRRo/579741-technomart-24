@@ -343,7 +343,7 @@ a {
 	font-size: 14px;
 	background-color: #ee3643;
 	border-radius: 3px;
-	line-height: 18px;
+	/* line-height: 18px; */
 }
 
 .button:hover {
@@ -351,7 +351,6 @@ a {
 
 .more-about {
   padding: 10px 40px 11px 41px;
-  line-height: 37px;
 }
 
 .contacts-bottom-row {
@@ -1682,7 +1681,7 @@ img {
 	font-weight: 300;
 	padding-left: 37px;
 	margin-top: 19px;
-	margin-bottom: 39px;
+	margin-bottom: 44px;
 }
 
 .delivery-partner {
@@ -1705,7 +1704,7 @@ img {
 }
 
 .contact-map {
-	margin-bottom: 42px;
+	margin-bottom: 49px;
 }
 
 .footer-social li {
@@ -1734,8 +1733,7 @@ img {
 }
 
 .write-us {
-	padding: 10px 57px 10px 65px;
-	line-height: 37px;
+	padding: 12px 57px 9px 65px;
 }
 
 .filter-item,
