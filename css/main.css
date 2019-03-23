@@ -2592,11 +2592,3 @@ img {
 	margin-top: 2px;
 	margin-left: 1px;
 }
-
-.test{
-	position: absolute;
-z-index: 5;
-opacity: 0.5;
-top: -3px;
-right: 119px;
-}
